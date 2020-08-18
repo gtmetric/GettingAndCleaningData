@@ -1,0 +1,26 @@
+CODEBOOK
+
+The set of variables includes:
+activity            -> Kind of activity that was taken
+subject             -> No. of subjects that took the activity
+tBodyAcc-XYZ		-> Time domain Body Acceleration in X, Y, and Z directions
+tGravityAcc-XYZ		-> Time domain Gravity Acceleration in X, Y, and Z directions
+tBodyAccJerk-XYZ	-> Time domain Body Acceleration Jerk in X, Y, and Z directions
+tBodyGyro-XYZ		-> Time domain Body Gyro in X, Y, and Z directions
+tBodyGyroJerk-XYZ	-> Time domain Body Gyro Jerk signal in X, Y, and Z directions
+tBodyAccMag         -> Time domain Body Acceleration magnitude in X, Y, and Z directions
+tGravityAccMag      -> Time domain Gravity Acceleration magnitude in X, Y, and Z directions
+tBodyAccJerkMag     -> Time domain Body Acceleration Jerk magnitude in X, Y, and Z directions
+tBodyGyroMag        -> Time domain Body Gyro magnitude in X, Y, and Z directions
+tBodyGyroJerkMag    -> Time domain Body Gyro Jerk magnitude in X, Y, and Z directions
+fBodyAcc-XYZ        -> Frequency domain Body Acceleration in X, Y, and Z directions
+fBodyAccJerk-XYZ    -> Frequency domain Body Acceleration Jerk in X, Y, and Z directions
+fBodyGyro-XYZ       -> Frequency domain Body Gyro in X, Y, and Z directions
+fBodyAccMag         -> Frequency domain Body Acceleration magnitude in X, Y, and Z directions
+fBodyAccJerkMag     -> Frequency domain Body Acceleration Jerk magnitude in X, Y, and Z directions
+fBodyGyroMag        -> Frequency domain Body Gyro magnitude in X, Y, and Z directions
+fBodyGyroJerkMag    -> Frequency domain Body Gyro Jerk magnitude in X, Y, and Z directions
+
+For each varible (except activity and subject), there are two estimations including:
+mean()  -> Mean value
+std()   -> Standard deviation
